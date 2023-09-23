@@ -153,8 +153,7 @@ a {
   height: 200px;
   margin-bottom: 10px;
   box-shadow: none;
-  /* box-shadow: inset 0px 0px 0px 10px black; */
-  border: 10px solid var(--dark-primary-color);
+  border: 5px solid var(--dark-primary-color);
   box-sizing: border-box;
 }
 
@@ -254,5 +253,14 @@ a {
     padding-right: 0;
     flex: 0 0 100%;
     margin-bottom: 10px;
+  }
+
+  .portfolio-work-card {
+    flex: 0 0 100%;
+  }
+
+  .portfolio-work-card figcaption {
+    bottom: 0;
+    width: 100%;
   }
 }
