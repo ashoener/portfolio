@@ -18,6 +18,8 @@
 
 body {
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -30,4 +32,55 @@ h2 {
 
 h3 {
   font-size: 1.5em;
+}
+
+.navbar {
+  flex: 0 0 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.navbar-header-container {
+  color: var(--text-icons);
+  text-align: left;
+  flex: 1 0 0;
+}
+
+.navbar-header-container h1 {
+  background-color: var(--dark-primary-color);
+  width: fit-content;
+  padding: 10px 0;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.navbar-links-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1 0 0;
+  padding-right: 20px;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links li {
+  padding: 5px 0;
+  margin: 0 5px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: var(--light-primary-color);
+  padding: 5px 10px;
+  border-bottom: 3px solid var(--dark-primary-color);
+}
+
+.navbar-links li a:hover {
+  color: var(--text-icons);
+  border-color: var(--light-primary-color);
 }
