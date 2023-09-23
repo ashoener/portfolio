@@ -1,0 +1,11 @@
+/* Colors from https://www.materialpalette.com/blue-grey/blue */
+:root {
+  --dark-primary-color: #455a64;
+  --light-primary-color: #cfd8dc;
+  --primary-color: #607d8b;
+  --text-icons: #ffffff;
+  --accent-color: #448aff;
+  --primary-text: #212121;
+  --secondary-text: #757575;
+  --divider-color: #bdbdbd;
+}
