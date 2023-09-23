@@ -201,6 +201,31 @@ a {
   object-position: 0 0;
 }
 
+.contact-links-container {
+  padding: 20px;
+}
+
+.contact-links {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.contact-links li {
+  padding: 5px 0;
+  margin: 0 5px;
+}
+
+.contact-links li a {
+  color: var(--primary-text);
+  padding: 5px 10px;
+  border-bottom: 3px solid var(--dark-primary-color);
+}
+
+.contact-links li a:hover {
+  border-color: var(--accent-color);
+}
+
 /* @media screen and (max-width: 992px) {
 } */
 
@@ -262,5 +287,18 @@ a {
   .portfolio-work-card figcaption {
     bottom: 0;
     width: 100%;
+  }
+
+  .contact-links-container {
+    padding: 0 0;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-links li {
+    margin: 5px 0;
   }
 }
