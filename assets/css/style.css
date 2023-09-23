@@ -84,3 +84,27 @@ h3 {
   color: var(--text-icons);
   border-color: var(--light-primary-color);
 }
+
+.hero {
+  background-image: url(/assets/images/hero-background.jpg);
+  height: 300px;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.hero h2 {
+  margin-right: 50px;
+  margin-bottom: 30px;
+  background-color: var(--dark-primary-color);
+  padding: 8px;
+  color: var(--text-icons);
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 1% 5%;
+}
