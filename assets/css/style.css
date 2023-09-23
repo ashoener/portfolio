@@ -185,7 +185,7 @@ a {
 .portfolio-work-card figcaption {
   position: absolute;
   z-index: 1;
-  bottom: 50px;
+  bottom: 20px;
   color: var(--text-icons);
   background-color: var(--dark-primary-color);
   width: fit-content;
