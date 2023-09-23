@@ -141,6 +141,46 @@ a {
   margin-bottom: 0;
 }
 
+.portfolio-work-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-work-card {
+  flex: 0 0 49.5%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.portfolio-work-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+  filter: blur(2px);
+  transition-property: filter;
+  transition-duration: 200ms;
+}
+
+.portfolio-work-card:hover img {
+  filter: blur(1px);
+}
+
+.portfolio-work-card figcaption {
+  position: relative;
+  bottom: 100px;
+  color: var(--text-icons);
+  background-color: var(--dark-primary-color);
+  width: fit-content;
+  padding: 10px 10px;
+}
+
+#primary-work-card {
+  flex: 0 0 100%;
+  height: 350px;
+}
+
 /* @media screen and (max-width: 992px) {
 } */
 
