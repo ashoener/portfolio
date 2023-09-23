@@ -108,3 +108,47 @@ h3 {
   flex-direction: row;
   padding: 1% 5%;
 }
+
+/* @media screen and (max-width: 992px) {
+} */
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .navbar-header-container h1 {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-links-container {
+    justify-content: center;
+    padding: 0 0;
+    padding-bottom: 5px;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navbar-links li {
+    margin: 5px 0;
+  }
+
+  .hero {
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+  }
+
+  .hero h2 {
+    margin: 0;
+    padding: 8px 20px;
+    /* width: 100%; */
+  }
+}
