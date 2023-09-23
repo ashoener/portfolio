@@ -218,7 +218,7 @@ a {
 .contact-links li a {
   color: var(--primary-text);
   padding: 5px 10px;
-  border-bottom: 3px solid var(--dark-primary-color);
+  border-bottom: 3px solid var(--primary-color);
 }
 
 .contact-links li a:hover {
