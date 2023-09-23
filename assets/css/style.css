@@ -234,17 +234,40 @@ a {
     padding: 0;
   }
 
+  .navbar-header-container {
+    background-color: var(--dark-primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .navbar-header-container h1 {
-    width: 100%;
-    text-align: center;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 10px;
+  }
+
+  /* Credit: https://www.w3schools.com/howto/howto_css_menu_icon.asp */
+  .menu-icon {
+    display: inline;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .menu-icon > * {
+    width: 35px;
+    height: 5px;
+    background-color: var(--primary-color);
+    margin: 6px 0;
   }
 
   .navbar-links-container {
     justify-content: center;
     padding: 0 0;
     padding-bottom: 5px;
+    display: none;
+  }
+
+  .navbar-links-container.active {
+    display: initial;
   }
 
   .navbar-links {
