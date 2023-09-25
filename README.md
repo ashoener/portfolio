@@ -2,7 +2,7 @@
 
 ## Description
 
-A portfolio showcasing projects I have done.
+A portfolio showcasing projects I have done, as well as contact information.
 
 # Usage
 
