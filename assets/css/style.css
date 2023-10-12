@@ -315,6 +315,10 @@ a {
     width: 100%;
   }
 
+  #primary-work-card {
+    height: 200px;
+  }
+
   .contact-links-container {
     padding: 0 0;
   }
